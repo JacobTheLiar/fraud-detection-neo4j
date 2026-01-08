@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: fraud-detection-neo4j
+
+    neo4j:
+        uri: bolt://localhost:7687
+        authentication:
+            username: ${NEO4J_USER}
+            password: ${NEO4J_PASSWORD}
