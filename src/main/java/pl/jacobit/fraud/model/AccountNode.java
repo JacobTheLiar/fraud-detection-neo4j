@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.UUID;
 
-@Node
+@Node("Account")
 public record AccountNode(
         @Id
         UUID accountId,
